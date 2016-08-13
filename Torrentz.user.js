@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Torrentz
-// @namespace   shadowWalker
-// @description Magneti link on torrentz.in
+// @namespace   Laststnd
+// @description Magnetic link on torrentz.in
 // @include     *torrentz.*
 // @include     *torrentz2.*
 // @version     1.1
@@ -57,5 +57,5 @@ for(i=0;i<a.length;i++)
 a[pos].href=urls;
 a[pos].innerHTML=a[pos].innerHTML.substring(0,a[pos].innerHTML.lastIndexOf('</span>')+7);
 a[pos].getElementsByTagName('span')[0].style="background: transparent url('http://i57.tinypic.com/aoxdol.jpg') no-repeat 5px center;color : black;";
-a[pos].getElementsByTagName('span')[1].innerHTML="<Font color='red'>Magnetic Link --- By $#@D0w \\^/@LkeR</font>";
+a[pos].getElementsByTagName('span')[1].innerHTML="<Font color='red'>Magnetic Link --- By L@$t$tnD</font>";
 a[pos].getElementsByTagName('span')[0].innerHTML="<font color='black'>Magnetic Link</font>";
