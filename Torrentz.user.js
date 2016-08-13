@@ -4,7 +4,7 @@
 // @description Magneti link on torrentz.in
 // @include     *torrentz.*
 // @include     *torrentz2.*
-// @version     1
+// @version     1.1
 // @grant       none
 // ==/UserScript==
 
