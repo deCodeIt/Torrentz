@@ -43,8 +43,9 @@ var newSpanDesc = document.createElement('span');
 newLink.href = urls;
 newDT.appendChild(newLink);
 
-newSpanLogo.style = "background: transparent url('http://i57.tinypic.com/aoxdol.jpg') no-repeat 5px center;color : black;";
-newSpanLogo.setAttribute("class", "insites sprite");
+//newSpanLogo.style = "background: transparent url('http://i57.tinypic.com/aoxdol.jpg') no-repeat 5px center;color : black;";
+newSpanLogo.style = "background: transparent url('data:image/gif;base64,R0lGODlhDAAMAPMKAEVFRUZGRokcDYocDswVAM0WAOsuErW1tePj4+bm5v///wAAAAAAAAAAAAAAAAAAACH5BAUAAAoALAAAAAAMAAwAAAQ3UEkVapizilJMzRtBcN0VbIU4ct7Jaq/rScFQ1iVtt/tFba0DAuELHBJEIyJRPDKVTJowaSlWIwA7') no-repeat 5px center;color : black;";
+newSpanLogo.setAttribute("class", "j z");
 
 newSpanLink.innerText = "Magnetic Link";
 newSpanLink.setAttribute("class","u");
