@@ -15,7 +15,7 @@ urls=urls+str+"&dn=";
 // console.log(urls);
 
 // sets the file name
-var fileName=document.getElementsByClassName('download')[0].getElementsByTagName('h2')[0].childNodes[0].innerText;
+var fileName=document.getElementsByClassName('downlinks')[0].getElementsByTagName('h2')[0].childNodes[0].innerText;
 // console.log(fileName);
 fileName = fileName.replace(/ /g,'+');
 urls=urls+fileName;
@@ -59,12 +59,12 @@ newLink.appendChild(newSpanLink);
 newLink.appendChild(newSpanDesc);
 
 newDL.appendChild(newDT);
-var list = document.getElementsByClassName('download')[0].childNodes;
+var list = document.getElementsByClassName('downlinks')[0].childNodes;
 var i;
 // get the tagName of position of 1st link in downloading sites
 for(i=0;i<list.length && list[i].tagName!="DL";i++);
 
-document.getElementsByClassName('download')[0].insertBefore(newDL,list[i]); //  to insert the magnetic link at top of existing links
+document.getElementsByClassName('downlinks')[0].insertBefore(newDL,list[i]); //  to insert the magnetic link at top of existing links
 
 // a[pos].href=urls;
 // a[pos].innerHTML=a[pos].innerHTML.substring(0,a[pos].innerHTML.lastIndexOf('</span>')+7);
